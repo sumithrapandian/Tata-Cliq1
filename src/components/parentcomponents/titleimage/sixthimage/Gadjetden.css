@@ -1,0 +1,87 @@
+.parent_line7 {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.line7 {
+  width: 80%;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.parent_slick7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.sub_slick7 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.previous7, .next7 {
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  z-index: 1; 
+}
+
+.child_slick7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.create7 {
+  margin: 0 10px;
+  flex: 0 0 auto;
+}
+
+.create7 img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .create7 {
+    margin: 0 5px;
+  }
+
+  .previous7, .next7 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .create7 {
+    margin: 0 3px;
+  }
+
+  .previous7, .next7 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .create7 {
+    margin: 0 2px;
+  }
+
+  .previous7, .next7 {
+    font-size: 18px;
+  }
+
+  .child_slick7 {
+    flex-direction: column; 
+  }
+}

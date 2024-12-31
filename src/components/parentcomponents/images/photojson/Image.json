@@ -1,0 +1,72 @@
+[
+    {
+        "id":"1",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351065677854.png",
+        "alt":"images",
+        "name":"WESTSIDE"
+
+    },
+    {
+        "id":"2",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351065743390.png",
+        "alt":"images",
+        "name":"WOMENSWEAR"
+    },
+    {
+        "id":"3",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351065808926.png",
+        "alt":"images",
+        "name":"MENSWEAR"
+    },
+    {
+        "id":"4",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351065874462.png",
+        "alt":"images",
+        "name":"HANDBAGS"
+    },
+    {
+        "id":"5",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351065939998.png",
+        "alt":"images",
+        "name":"WATCHES"
+    },
+    {
+        "id":"6",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351066005534.png",
+        "alt":"images",
+        "name":"FOOTWEAR"
+    },
+    {
+        "id":"7",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351066071070.png",
+        "alt":"images",
+        "name":"KIDSWEAR"
+    },
+    {
+        "id":"8",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351066234910.png",
+        "alt":"images",
+        "name":"JWELLERY"
+    },
+    {
+        "id":"9",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351066300446.png",
+        "alt":"images",
+        "name":"BEAUTY"
+    },
+    {
+        "id":"10",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351066365982.png",
+        "alt":"images",
+        "name":"HOME&LIVING"
+    },
+    
+    {
+        "id":"11",
+        "src":"https://assets.tatacliq.com/medias/sys_master/images/62351066431518.png",
+        "alt":"images",
+        "name":"GADGETS"
+    }
+    
+    
+]

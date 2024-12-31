@@ -1,0 +1,87 @@
+.parent_line6 {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.line6 {
+  width: 80%;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.parent_slick6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.sub_slick6 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.previous6, .next6 {
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+}
+
+.child_slick6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.create6 {
+  margin: 0 10px;
+  flex: 0 0 auto; 
+}
+
+.create6 img {
+  max-width: 100%;
+  height: auto; 
+}
+
+
+@media (max-width: 1024px) {
+  .create6 {
+    margin: 0 5px;
+  }
+
+  .previous6, .next6 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .create6 {
+    margin: 0 3px;
+  }
+
+  .previous6, .next6 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .create6 {
+    margin: 0 2px;
+  }
+
+  .previous6, .next6 {
+    font-size: 18px;
+  }
+
+  .child_slick6 {
+    flex-direction: column; 
+  }
+}

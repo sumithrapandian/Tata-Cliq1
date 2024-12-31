@@ -1,0 +1,53 @@
+.footer {
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    padding: 20px 100px; /* Add padding for spacing */
+  }
+  
+  .parent_footer {
+    margin-bottom: 20px; /* Space between sections */
+  }
+  
+  h3 {
+    font-size: 20px; /* Base font size for headings */
+    margin-bottom: 10px; /* Space below headings */
+  }
+  
+  .parent_footer p {
+    font-size: 16px; /* Base font size for paragraph text */
+    line-height: 1.5; /* Improve readability */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    h3 {
+      font-size: 18px; /* Slightly smaller heading */
+    }
+  
+    .parent_footer p {
+      font-size: 15px; /* Slightly smaller text */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 16px; /* Smaller heading */
+    }
+  
+    .parent_footer p {
+      font-size: 14px; /* Smaller text */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h3 {
+      font-size: 14px; /* Even smaller heading */
+    }
+  
+    .parent_footer p {
+      font-size: 12px; /* Even smaller text */
+    }
+  
+    .footer {
+      padding: 10px; /* Reduce padding on smaller screens */
+    }
+  }

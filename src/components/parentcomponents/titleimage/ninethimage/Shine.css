@@ -1,0 +1,173 @@
+.parent_line10 {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.line10 {
+  width: 80%;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.parent_slick10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.sub_slick10 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.previous10, .next10 {
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+}
+
+.child_slick10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.create10 {
+  margin: 0 10px;
+  flex: 0 0 auto; /* Prevent flex items from growing */
+}
+
+.create10 img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .create10 {
+    margin: 0 5px;
+  }
+
+  .previous10, .next10 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .create10 {
+    margin: 0 3px;
+  }
+
+  .previous10, .next10 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .create10 {
+    margin: 0 2px;
+  }
+
+  .previous10, .next10 {
+    font-size: 18px;
+  }
+
+  .child_slick10 {
+    flex-direction: column; /* Stack images vertically on very small screens */
+  }
+}.parent_line8 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.line8 {
+  width: 80%;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.parent_slick8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.sub_slick8 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.previous8, .next8 {
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+}
+
+.child_slick8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.create8 {
+  margin: 0 10px;
+  flex: 0 0 auto; 
+}
+
+.create8 img {
+  max-width: 100%;
+  height: auto; 
+}
+
+
+@media (max-width: 1024px) {
+  .create8 {
+    margin: 0 5px;
+  }
+
+  .previous8, .next8 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .create8 {
+    margin: 0 3px;
+  }
+
+  .previous8, .next8 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .create8 {
+    margin: 0 2px;
+  }
+
+  .previous8, .next8 {
+    font-size: 18px;
+  }
+
+  .child_slick8 {
+    flex-direction: column;
+  }
+}

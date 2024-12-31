@@ -1,0 +1,61 @@
+.aside_content {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around; /* Stack content vertically */
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional: Add a background color */
+  }
+  
+  .parent_content {
+    margin-bottom: 20px; /* Space between sections */
+  }
+  
+  h4 {
+    font-size: 20px; /* Base font size for headings */
+    margin-bottom: 10px; /* Space below headings */
+  }
+  
+  .sub_content {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .sub_content li {
+    font-size: 16px; /* Base font size for list items */
+    margin: 5px 0; /* Space between list items */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    h4 {
+      font-size: 18px; /* Slightly smaller heading */
+    }
+  
+    .sub_content li {
+      font-size: 15px; /* Slightly smaller text */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h4 {
+      font-size: 16px; /* Smaller heading */
+    }
+  
+    .sub_content li {
+      font-size: 14px; /* Smaller text */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h4 {
+      font-size: 14px; /* Even smaller heading */
+    }
+  
+    .sub_content li {
+      font-size: 12px; /* Even smaller text */
+    }
+  
+    .aside_content {
+      padding: 10px; /* Reduce padding on smaller screens */
+    }
+  }

@@ -1,0 +1,37 @@
+
+.image1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px; 
+}
+
+.parent_image1 {
+  display: flex;
+  justify-content: center;
+}
+
+.parent_image1 img {
+  max-width: 100%; 
+  height: auto; 
+  margin: 5px; 
+}
+
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .parent_image1 img {
+    width: 100px; 
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .parent_image1 img {
+    width: 150px; 
+  }
+}
+
+@media (max-width: 1025px) {
+  .parent_image1 img {
+    width: 200px; 
+  }
+}

@@ -1,0 +1,77 @@
+.parent_slick_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin: 100px 0;
+  }
+  
+  .sub_slick_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .previous_container, .next_container {
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    z-index: 1; 
+  }
+  
+  .child_slick_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .create_container {
+    margin: 0 10px;
+    flex: 0 0 auto; 
+  }
+  
+  .create_container img {
+    max-width: 100%;
+    height: auto; 
+  }
+  
+
+  @media (max-width: 1024px) {
+    .create_container {
+      margin: 0 5px;
+    }
+  
+    .previous_container, .next_container {
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .create_container {
+      margin: 0 3px;
+    }
+  
+    .previous_container, .next_container {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .create_container {
+      margin: 0 2px;
+    }
+  
+    .previous_container, .next_container {
+      font-size: 18px;
+    }
+  
+    .child_slick_container {
+      flex-direction: column; 
+    }
+  }

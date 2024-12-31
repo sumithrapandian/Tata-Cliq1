@@ -1,0 +1,24 @@
+.hover_brand{
+    position: absolute;
+    top:80px;
+    padding-left: 300px;
+    
+}
+
+.child_brand{
+    height:500px;
+    width: 980px;
+    background-color:white;
+    display:flex;     
+    justify-content: space-around;
+    overflow: hidden;
+    flex-wrap:nowrap;
+}
+li{
+    list-style:none ;
+}
+.super_brand{
+    width: 100%;
+    padding:20px 0px 0px 100px;
+    height: 500px;
+}   

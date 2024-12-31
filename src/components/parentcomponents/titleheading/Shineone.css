@@ -1,0 +1,10 @@
+.title10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_title10{
+    font-size:43px;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+}

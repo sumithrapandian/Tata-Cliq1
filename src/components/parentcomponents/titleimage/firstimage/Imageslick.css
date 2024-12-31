@@ -1,0 +1,69 @@
+.parent_slick{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    position: relative;
+    
+}
+.child_slick{
+    flex-direction: row;
+    display: flex;
+    gap:17px;
+         
+}
+.sub_slick{  
+    display: flex;
+    color: rgb(103, 100, 100);
+    width:20px;
+    justify-content: space-between;
+    position: absolute;
+    top:0;
+    z-index: 100px;
+    padding: 60px 0px 0px 1000px;
+    gap: 3px;
+    
+    
+}
+.previous{
+    display: flex;
+    /* height:40px;
+    width:40px; */
+    padding: 8px 4px 8px 15px;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    align-items: center;
+    
+    
+}
+.next{
+    display: flex;
+    /* height:40px;
+    width:40px; */
+    padding: 8px 8px 8px 10px;
+    background-color: white;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    align-items: center;
+}
+.parent_line{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.line{
+    
+    width:75%;
+    height:1px;
+    background-color:whitesmoke;
+    
+} 
+.create {
+    transition: 0.5s ease;  
+    
+  }
+  
+  .create:hover  {
+    scale: 1.02; 
+  }

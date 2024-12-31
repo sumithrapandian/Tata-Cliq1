@@ -1,0 +1,87 @@
+.parent_line4 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+  }
+  
+  .line4 {
+    width: 80%;
+    height: 2px;
+    background-color: #ccc;
+  }
+  
+  .parent_slick4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .sub_slick4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .previous4, .next4 {
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .child_slick4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .create4 {
+    margin: 0 10px;
+    flex: 0 0 auto; 
+  }
+  
+  .create4 img {
+    max-width: 100%;
+    height: auto; 
+  }
+  
+
+  @media (max-width: 1024px) {
+    .create4 {
+      margin: 0 5px;
+    }
+  
+    .previous4, .next4 {
+      font-size: 22px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .create4 {
+      margin: 0 3px;
+    }
+  
+    .previous4, .next4 {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .create4 {
+      margin: 0 2px;
+    }
+  
+    .previous4, .next4 {
+      font-size: 18px;
+    }
+  
+    .child_slick4 {
+      flex-direction: column; 
+    }
+  }

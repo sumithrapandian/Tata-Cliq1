@@ -1,0 +1,10 @@
+.data{
+    height: 120px;
+    width: 130px;
+} 
+.logocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
